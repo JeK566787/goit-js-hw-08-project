@@ -16,6 +16,6 @@ player.setCurrentTime(localStorageRecord());
 // сохраняем значение видео
 function localStorageRecord() {
   let savedValue = Number(localStorage.getItem('videoplayer-current-time'));
-  console.log(savedValue);
+  // console.log(savedValue);
   return savedValue;
 }
