@@ -17,7 +17,6 @@ const fillContactFormElements = () => {
       formRef.elements[prop].value = userDataFromLS[prop];
     }
   }
-  //   console.log(userDataFromLS);
 };
 // вызов функции
 fillContactFormElements();
