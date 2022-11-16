@@ -64,7 +64,7 @@ const onContactFormSubmit = event => {
   } else {
     console.log(userDate);
   }
-
+  userDate = {};
   // console.dir(formRef.elements.email.value);
 
   localStorage.removeItem(LOCALSTORAGE_KEY);
