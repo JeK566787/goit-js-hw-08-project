@@ -64,6 +64,7 @@ const onContactFormSubmit = event => {
   } else {
     console.log(userDate);
   }
+  // добавляем пустой объект, чтобы очищались поля ввода
   userDate = {};
   // console.dir(formRef.elements.email.value);
 
